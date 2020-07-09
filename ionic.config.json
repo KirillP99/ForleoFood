@@ -1,0 +1,7 @@
+{
+  "name": "eu.alesko.forleofood",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

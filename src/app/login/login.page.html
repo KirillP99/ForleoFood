@@ -1,0 +1,17 @@
+<ion-header no-border>
+  <ion-toolbar mode="md" color="success">
+    <ion-buttons slot="start">
+      <ion-back-button text="" defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Вход</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="main_bg" [fullscreen]="true">
+  <h1 class="ion-text-center">LEOFOOD</h1>
+  <form (ngSubmit)="doLogin()">
+    <ion-input type="text" name="login" [(ngModel)]="login" placeholder="Номер телефона"></ion-input>
+    <ion-input type="password" name="password" [(ngModel)]="password" placeholder="Пароль"></ion-input>
+    <ion-button type="submit" expand="block" color="success">Войти</ion-button>
+  </form>
+</ion-content>

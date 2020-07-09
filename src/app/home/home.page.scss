@@ -1,0 +1,27 @@
+:host {
+  ion-content {
+    &.main_bg {
+      --background: #fff url('../../assets/images/background.png') 50% 50% / cover;
+    }
+
+    .logo {
+      display: block;
+      width: 50.0vw;
+      margin: 10.0vh auto 0;
+    }
+
+    h1 {
+      margin: 2.0vh 0;
+      font-family: 'Impact';
+      font-size: 10.0vmin;
+      font-weight: bold;
+    }
+
+    ion-button {
+      margin: 3.0vh 20.0vw;
+      --padding-top: 3.0vh;
+      --padding-bottom: 3.0vh;
+      font-size: 4.15vmin;
+    }
+  }
+}
